@@ -77,15 +77,25 @@ autoSeedSampleDataIfEmpty();
 // Register API router
 app.use('/api', apiRouter);
 
-// Root fallback
-app.get('/', (_req, res) => {
-  res.send({
-    service: 'Multi-Document Intelligence Workbench API',
-    status: 'online',
-    version: '1.0.0',
-    documentation: '/api/health'
+// Serve static client assets in production
+const clientDistPath = path.resolve(__dirname, '..', '..', 'client', 'dist');
+if (fs.existsSync(clientDistPath)) {
+  app.use(express.static(clientDistPath));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(clientDistPath, 'index.html'));
   });
-});
+} else {
+  // Root fallback when running API standalone
+  app.get('/', (_req, res) => {
+    res.send({
+      service: 'Multi-Document Intelligence Workbench API',
+      status: 'online',
+      version: '1.0.0',
+      documentation: '/api/health'
+    });
+  });
+}
 
 app.listen(PORT, () => {
   console.log(`=======================================================`);
