@@ -1,0 +1,22 @@
+Account_Holder,Account_Number,Statement_Period,Registered_Address,Branch_Code
+"John Doe","ACT-88492019","2026-06-01 to 2026-08-31","104 Willow Way, Springfield, IL 62704","BR-0492"
+
+Date,Transaction_ID,Description,Category,Debit_Amount,Credit_Amount,Running_Balance
+2026-06-01,TXN-101,Opening Balance,Balance,,,4850.00
+2026-06-05,TXN-102,Client Retainer Payment - Software,Revenue,,6500.00,11350.00
+2026-06-12,TXN-103,Office Supplies & Cloud Hosting,Expense,420.00,,10930.00
+2026-06-18,TXN-104,Auto Loan ACH Debit - Apex Auto Finance,Debt Service,600.00,,10330.00
+2026-06-25,TXN-105,Utility Bills & Telecom,Expense,210.00,,10120.00
+2026-07-05,TXN-106,Client Retainer Payment - Software,Revenue,,6500.00,16620.00
+2026-07-15,TXN-107,Contractor Services Payout,Expense,1250.00,,15370.00
+2026-07-18,TXN-108,Auto Loan ACH Debit - Apex Auto Finance,Debt Service,600.00,,14770.00
+2026-07-28,TXN-109,Professional Insurance,Expense,340.00,,14430.00
+2026-08-05,TXN-110,Client Retainer Payment - Software,Revenue,,6500.00,20930.00
+2026-08-14,TXN-111,Equipment & Tech Hardware,Expense,890.00,,20040.00
+2026-08-18,TXN-112,Auto Loan ACH Debit - Apex Auto Finance,Debt Service,600.00,,19440.00
+2026-08-31,TXN-113,Monthly Statement Closing Balance,Balance,,,19440.00
+
+SUMMARY_METRIC,METRIC_VALUE,NOTES
+Average_Monthly_Deposit,6500.00,"Calculated across June, July, and August 2026"
+Recurring_Monthly_Debt_Service,600.00,"Recurring debit to Apex Auto Finance"
+Account_Status,Active,"Verified Account at Heritage Community Credit Union"

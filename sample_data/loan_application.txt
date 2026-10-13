@@ -1,0 +1,38 @@
+================================================================================
+FIRST HORIZON COMMERCIAL BANK - SMALL BUSINESS LOAN APPLICATION FORM
+================================================================================
+Application ID: APP-2026-89412
+Date Submitted: 2026-09-15
+Loan Officer: Sarah Jenkins, Senior Underwriter
+
+PART 1: APPLICANT INFORMATION
+Full Legal Name: John Doe
+Tax ID / SSN: XXX-XX-4819
+Date of Birth: 1984-05-12
+Primary Residential Address: 742 Elm St, Springfield, IL 62704
+Phone Number: (555) 392-1084
+Email: john.doe@apextechsolutions.com
+
+PART 2: BUSINESS DETAILS
+Business Legal Entity: Apex Technology Solutions LLC
+Operating Since: 2019-03-01
+Entity Type: Limited Liability Company (LLC)
+Current Position: Managing Member & 100% Equity Owner
+Business Physical Address: 742 Elm St, Suite 2B, Springfield, IL 62704
+
+PART 3: FINANCIAL DECLARATIONS
+Requested Loan Facility: $50,000.00 USD
+Facility Type: 36-Month Term Loan (Working Capital Expansion)
+Declared Average Monthly Personal Income: $10,000.00 USD
+Declared Annual Gross Revenue: $185,000.00 USD
+Declared Monthly Net Business Profit: $8,500.00 USD
+Existing Outstanding Debt Obligations: NONE ($0.00 monthly obligation)
+Declared Commercial Leases: $0.00 (Home-based office)
+
+PART 4: APPLICANT ATTESTATION
+I hereby certify under penalty of perjury that all statements, revenues, 
+residential addresses, and debt declarations made in this application are 
+complete, true, and accurate to the best of my knowledge.
+
+Signature: [Electronically Signed: John Doe, 2026-09-15 14:22:09 CST]
+================================================================================
